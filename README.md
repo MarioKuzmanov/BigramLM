@@ -7,7 +7,7 @@ Built by exact description as in ***https://web.stanford.edu/~jurafsky/slp3/***.
 Implementation of N-gram language model that looks one word into the past, also called Bigram. The idea of the model is
 to predict the next word, given it's predictions so far.
 OOV words have special token and <em>Kneyser-Ney</em> smoothing technique is applied to avoid zero counts/increase
-probabilities of rare events.
+probabilities of rare events. The text generation technique implemented is weighted **random sampling**.  
 
 <h2>Usage</h2>
 
